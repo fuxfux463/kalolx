@@ -14,7 +14,7 @@ jobs:
 
     env:
       JAVA_HOME: /usr/lib/jvm/adoptopenjdk-17-hotspot
-      ANDROID_SDK_ROOT: ${{ runner.home }}/Android/Sdk
+      ANDROID_SDK_ROOT: ${{ github.workspace }}/android-sdk
 
     steps:
     - name: Checkout repo
