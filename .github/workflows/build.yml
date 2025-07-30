@@ -10,11 +10,11 @@ on:
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
 
     env:
       JAVA_HOME: /usr/lib/jvm/adoptopenjdk-17-hotspot
-      ANDROID_SDK_ROOT: ${{ runner.temp }}/android-sdk
 
     steps:
     - name: Checkout repo
@@ -27,6 +27,8 @@ jobs:
         java-version: 17
 
     - name: Download Android SDK command line tools
+      env:
+        ANDROID_SDK_ROOT: ${{ runner.temp }}/android-sdk
       run: |
         mkdir -p $ANDROID_SDK_ROOT/cmdline-tools
         cd $ANDROID_SDK_ROOT/cmdline-tools
@@ -35,6 +37,8 @@ jobs:
         rm commandlinetools.zip
 
     - name: Setup Android SDK
+      env:
+        ANDROID_SDK_ROOT: ${{ runner.temp }}/android-sdk
       run: |
         yes | $ANDROID_SDK_ROOT/cmdline-tools/tools/bin/sdkmanager --sdk_root=$ANDROID_SDK_ROOT --licenses
         $ANDROID_SDK_ROOT/cmdline-tools/tools/bin/sdkmanager --sdk_root=$ANDROID_SDK_ROOT "platform-tools" "platforms;android-33" "build-tools;33.0.2"
