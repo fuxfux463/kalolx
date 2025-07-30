@@ -10,12 +10,11 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     env:
       JAVA_HOME: /usr/lib/jvm/adoptopenjdk-17-hotspot
-      ANDROID_SDK_ROOT: ${{ env.RUNNER_TEMP }}/android-sdk
+      ANDROID_SDK_ROOT: ${{ runner.temp }}/android-sdk
 
     steps:
     - name: Checkout repo
