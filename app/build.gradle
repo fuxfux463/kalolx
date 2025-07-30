@@ -1,0 +1,27 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.kalilotx.smsviewer'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.kalilotx.smsviewer"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        // Permissão de leitura SMS
+        manifestPlaceholders = [permissions: "android.permission.READ_SMS"]
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {}

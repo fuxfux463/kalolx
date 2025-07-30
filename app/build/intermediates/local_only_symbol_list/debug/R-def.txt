@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+drawable hacker1
+id btnLerSms
+id smsOutput
+id textoTopo
+layout activity_main

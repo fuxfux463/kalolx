@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hacker_bg"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textoTopo"
+        android:text="BY KALILOTX!!"
+        android:textColor="#00FF00"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/btnLerSms"
+        android:text="LER SMS"
+        android:layout_below="@id/textoTopo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/smsOutput"
+        android:text="Mensagens aparecerão aqui..."
+        android:textColor="#00FF00"
+        android:layout_below="@id/btnLerSms"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.kalilotx.smsviewer.app-merged_res-4:/layout_activity_main.xml.flat",
+        "source": "com.kalilotx.smsviewer.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.kalilotx.smsviewer.app-merged_res-4:/drawable_hacker1.png.flat",
+        "source": "com.kalilotx.smsviewer.app-main-6:/drawable/hacker1.png"
+    }
+]

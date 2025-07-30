@@ -1,0 +1,39 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kalilotx.smsviewer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/root/Smsviewer/SmsViewerApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/root/Smsviewer/SmsViewerApp/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/root/Smsviewer/SmsViewerApp/app/src/main/AndroidManifest.xml:3:5-14:19
+12        android:debuggable="true"
+13        android:label="MeuApp"
+13-->/root/Smsviewer/SmsViewerApp/app/src/main/AndroidManifest.xml:4:9-31
+14        android:theme="@android:style/Theme.Material.Light" >
+14-->/root/Smsviewer/SmsViewerApp/app/src/main/AndroidManifest.xml:5:9-60
+15        <activity
+15-->/root/Smsviewer/SmsViewerApp/app/src/main/AndroidManifest.xml:6:9-13:20
+16            android:name="com.kalilotx.smsviewer.MainActivity"
+16-->/root/Smsviewer/SmsViewerApp/app/src/main/AndroidManifest.xml:7:13-41
+17            android:exported="true" >
+17-->/root/Smsviewer/SmsViewerApp/app/src/main/AndroidManifest.xml:8:13-36
+18            <intent-filter>
+18-->/root/Smsviewer/SmsViewerApp/app/src/main/AndroidManifest.xml:9:13-12:29
+19                <action android:name="android.intent.action.MAIN" />
+19-->/root/Smsviewer/SmsViewerApp/app/src/main/AndroidManifest.xml:10:17-68
+19-->/root/Smsviewer/SmsViewerApp/app/src/main/AndroidManifest.xml:10:25-66
+20
+21                <category android:name="android.intent.category.LAUNCHER" />
+21-->/root/Smsviewer/SmsViewerApp/app/src/main/AndroidManifest.xml:11:17-76
+21-->/root/Smsviewer/SmsViewerApp/app/src/main/AndroidManifest.xml:11:27-74
+22            </intent-filter>
+23        </activity>
+24    </application>
+25
+26</manifest>

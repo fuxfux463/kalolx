@@ -1,0 +1,18 @@
+# Android/IntelliJ
+*.iml
+.gradle/
+local.properties
+/.idea/
+/build/
+/captures/
+/.externalNativeBuild/
+.cxx/
+
+# Ignore logs and OS files
+*.log
+*.lock
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive files
+# (adicione aqui arquivos que tenham suas chaves e tokens, se tiver)

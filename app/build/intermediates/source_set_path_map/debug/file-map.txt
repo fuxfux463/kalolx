@@ -1,0 +1,7 @@
+com.kalilotx.smsviewer.app-pngs-0 /root/Smsviewer/SmsViewerApp/app/build/generated/res/pngs/debug
+com.kalilotx.smsviewer.app-resValues-1 /root/Smsviewer/SmsViewerApp/app/build/generated/res/resValues/debug
+com.kalilotx.smsviewer.app-packageDebugResources-2 /root/Smsviewer/SmsViewerApp/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.kalilotx.smsviewer.app-packageDebugResources-3 /root/Smsviewer/SmsViewerApp/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.kalilotx.smsviewer.app-merged_res-4 /root/Smsviewer/SmsViewerApp/app/build/intermediates/merged_res/debug
+com.kalilotx.smsviewer.app-debug-5 /root/Smsviewer/SmsViewerApp/app/src/debug/res
+com.kalilotx.smsviewer.app-main-6 /root/Smsviewer/SmsViewerApp/app/src/main/res
